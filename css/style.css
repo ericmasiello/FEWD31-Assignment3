@@ -17,6 +17,8 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -76,5 +78,5 @@ footer {
 /*******************************************/
 
 
-
+/*Look at me using git*/
 
