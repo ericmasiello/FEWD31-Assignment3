@@ -67,6 +67,19 @@ header {
 
 }
 
+.columns {
+  float: left;
+  block-sizing: border-box;
+}
+
+.column1 {
+  width: 70%;
+}
+
+.column2 {
+  width: 30%
+}
+
 footer {
 
 }
