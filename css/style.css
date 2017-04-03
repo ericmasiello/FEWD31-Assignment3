@@ -52,7 +52,42 @@ body {
      font-family: Helvetica, Arial, sans-serif;
 }
 
+.readmorestate{
+      display: none;
+}
 
+.readmoretarget{
+      opacity: 0;
+      max-height: 0;
+      font-size: 0;
+      transition-timing-function: 25s ease;
+}
+
+.readmorestate:checked ~.readmorewrap .readmoretarget{
+      opacity: 1;
+      font-size: inherit;
+      max-height: 999em;
+}
+
+.readmorestate ~.readmoretrigger:before{
+      content: 'Read more';
+}
+
+.readmorestate:checked ~.readmoretrigger:before{
+      content: 'Read less';
+}
+
+.readmoretrigger{
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 .5em;
+      color: #666;
+      font-size: .9em;
+      line-height: 2;
+      border: 1px solid #ddd;
+      border-radius: .25em;
+      float: right;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
