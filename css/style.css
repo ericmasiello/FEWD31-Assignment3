@@ -41,17 +41,138 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+html {
+  box-sizing: border-box
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: #606161;
+     font-size: 24px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     padding-left: 50px;
+     margin: 0;
 }
 
+header {
+  background: #033048;
+  height: 90px;
+}
+
+h1 {
+  float: left;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 75px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.banner {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px;
+  float: right;
+}
+
+h2 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 30px 0;
+}
+
+#secondtitle {
+  border-top: 1px solid #000000;
+  margin-top: 25px;
+}
+
+.maintext {
+  font-weight: 300;
+}
+
+.readmore {
+  font-weight: 600;
+  margin-left: 475px;
+  padding: 30px;
+}
+
+.sidebar {
+  float: left;
+  width: 240px;
+  background: #f0efef;
+  color: #033048;
+}
+
+.categories {
+  padding: 25px 0;
+  margin-bottom: 30px;
+}
+
+ul {
+  margin: 0;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.about {
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+.learn {
+  font-size: 22px;
+  font-weight: 600;
+
+}
+
+.signup {
+  background-color: #f9e42e;
+  text-align: center;
+  height: 100px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #033048;
+  font-size: 22px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+footer {
+  background-color: #121212;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+}
+
+h4 {
+  color: #f9e42e;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+#copyright {
+  font-size: 9px;
+  padding: 50px;
+}
 
 /******************************************
 /* LAYOUT
@@ -59,36 +180,58 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 1075px;
   margin: auto;
+  background: #f0efef;
 }
 
-header {
-
-}
-
-.columns {
+header nav a {
   float: left;
-  block-sizing: border-box;
+  padding-left: 30px;
+  float: left;
 }
 
-.column1 {
-  width: 70%;
+.main {
+  float: left;
+  width: 700px;
+  background: #f0efef;
+  padding-right: 20px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  margin-left: 75px;
 }
 
-.column2 {
-  width: 30%
+.main img {
+  width: 100%;
 }
 
-footer {
+p {
+  padding: 25px 0;
+}
 
+.ad {
+  margin-top: 50px;
+}
+
+footer a {
+  margin: 25px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-/*I'm using Github!*/
+a {
+  text-decoration: none;
+}
 
-/*Look at me using git!*/
+a:hover {
+  color: #ffa500;
+}
 
+span {
+  float: left;
+  font-size: 70px;
+  padding-right: 10px;
+  font-weight: 600;
+}
