@@ -1,3 +1,11 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
 /******************************************
 /* SETUP
 /*******************************************/
@@ -38,14 +46,13 @@
 /*******************************************/
 
 body {
-     color: #121212;
-     background-color: #f0efef;
-     width: 1160px;
-     margin: auto;
-     font-size: 24px;
-     font-weight: 300;
+     color: #000;
+     font-size: 12px;
+     margin: 0;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: contain;
 }
 
 
@@ -53,100 +60,102 @@ body {
 /* LAYOUT
 /*******************************************/
 
+header {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 50px;
+}
+
 /* Center the container */
-/*#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
-
-}
-*/
-.heading {
-  background-color: #033048;
-  font-weight: 600;
-  width: 100%;
-  height: 100px;
+  text-align: center;
 }
 
-.nav h2 {
+.container h2 {
   color: white;
-  float: left;
-  margin-left: 100px;
-  box-sizing: border-box;
-}
-
-.links {
-  float: right;
-  padding-right: 100px;
-  box-sizing: border-box;
-  margin-top: 35px;
-}
-
-.links a {
-  color: #f9e42e;
-  text-decoration: none;
-  margin: 10px;
-
-}
-
-.readmore h3 {
-  color: #033048;
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.readmore a {
-  float: right;
-  text-decoration: none;
-  /*font-size: 24px;*/
-  font-weight: 600;
-}
-
-.dropcap {
-  float: left;
-  font-size: 65px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-}
-
-.readmore {
-  width: 700px;
-  float:left;
-  margin-left: 100px;
-  margin-right: 20px;
-  font-weight: 300;
-  box-sizing: border-box;
-}
-
-.sidebar h4 {
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 5px
-}
-
-.sidebar {
-  color: #033048;
   font-size: 24px;
-  font-weight: 300;
-  width: 240px;
-  float: left;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .getitnow {
+  background-color: #f9e42e;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 5px 25px;
+  margin-top: 10%;
+  display: inline-block;
   box-sizing: border-box;
 }
 
-.sidebar a {
+.container a.getitnow:link {
+  color: #033048;
   text-decoration: none;
-  font-size: 22px;
+}
+
+.benefits h4 {
+    padding-left: 50px;
+}
+
+.benefits {
+  background-color: #f0efef;
+  color: #033048;
+  font-size: 20px;
   font-weight: 600;
   float: left;
+  width: 100%;
+  padding-bottom: 15px;
 }
 
-.sidebar p {
-  color: #033048;
-  font-size: 22px;
+.text {
+  color: #606161;
+  font-size: 13px;
+  font-weight: 300;
   float: left;
-  box-sizing: border-box;
+  margin-left: 90px;
+}
+
+.list {
+  color: #606161;
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 100px;
+}
+
+.testimonial {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #606161;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote {
+  text-align: center;
+  padding-left: 450px;
+  padding-right: 450px;
+  color: #606161;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.amanda {
+  text-align: center;
+  color: #606161;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .signup {
@@ -158,8 +167,8 @@ body {
 
 a.signup {
   color: white;
-  background-color: #033048;
   text-decoration: none;
+  background-color: #033048;
   font-size: 12px;
   font-weight: 800;
   border-radius: 5px;
@@ -182,11 +191,11 @@ a.signup {
   border: 0;
 }
 
-.share {
+.fb {
   padding-top: 25px;
 }
 
-.share a {
+.fb a {
   margin: 10px;
 }
 
