@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Homework Assigment 3
+Client: Relaxr
+Author: Sequoia Howell
+Developer @GA in DC
 */
 
 
@@ -41,15 +41,25 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+html{
+  webkit-box-sizing: border-box;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
+     color: #0000;
+     background-color: #f0efef;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     max-width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
 
 .readmorestate{
@@ -71,10 +81,16 @@ body {
 
 .readmorestate ~.readmoretrigger:before{
       content: 'Read more';
+      font-weight: 300;
+      font-size: 24px;
+      margin-bottom: 300px;
 }
 
 .readmorestate:checked ~.readmoretrigger:before{
       content: 'Read less';
+      font-weight: 300;
+      font-size:24px;
+      margin-bottom: 300px;
 }
 
 .readmoretrigger{
@@ -88,6 +104,26 @@ body {
       border-radius: .25em;
       float: right;
 }
+
+.sidebar{
+      max-width: 240px;
+      float: right;
+      font-size: 12px;
+      margin-right: 100px;
+}
+
+.maincontent{
+      margin: 10px 320px 10px 50px;
+      max-width: 700px;
+      font-weight: 300;
+      font-size: 24px;
+}
+
+article h1{
+      font-size: 40px;
+      font-weight: 600;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -98,18 +134,68 @@ body {
   margin: auto;
 }
 
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+header {
+      background-color: #033048;
+      position:relative;
+      display: block;
+      max-width:100%;
+      height:100%;
+      margin:0 auto;
+      overflow:auto;
+}
+
+footer{
+      background-color: #121212;
+      margin: 0;
+      text-align: center;
+}
+
+header h1{
+      font-size: 24px;
+      margin: 30px;
+      padding-top: 0px;
+      max-width: 50%;
+      display:block;
+      float: left;
+}
+
+header nav{
+      float: right;
+      margin: 30px;
+}
+
+header nav a{
+      color: #f9e42e;
+      margin: 20px;
+      font-weight: 600;
+      font-size: 24px;
+}
+
+.buttonbackground{
+      background-color: #f9e42e;
+      padding: 20px;
+      margin-bottom: 0px;
+}
+
+.button{
+      background-color: #033048;
+      color: white;
+      border-radius: 75px;
+}
+
+.logo{
+      color: white;
+      margin: 0;
+}
+
+footer h3{
+      margin: 0;
+}
 /*Look at me using git!*/
 
 
