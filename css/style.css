@@ -50,7 +50,7 @@ html{
 /*******************************************/
 
 body {
-     color: #0000;
+     color: #606161;
      background-color: #f0efef;
      font-size: 12px;
      line-height: 1.4;
@@ -59,11 +59,19 @@ body {
 }
 
 a{
-    text-decoration: none;
+     text-decoration: none;
 }
 
-p{
-      color: #606161;
+.sidebar a:hover{
+      color: #f9e42e;
+}
+
+a:hover{
+      color: black;
+}
+
+.sidebar p{
+      color: #033048;
 }
 
 .readmorestate{
@@ -186,6 +194,10 @@ header nav a{
       font-size: 24px;
 }
 
+aside p a{
+      color: #033048;
+}
+
 article{
       border-bottom: solid;
 }
@@ -240,15 +252,15 @@ footer ul{
       padding-right: 50px;
 }
 
-.firstletter{
-      color: #606161;
-      float: left;
-      font-size: 75px;
-      line-height: 60px;
-      padding-top: 4px;
-      padding-right: 8px;
-      padding-left: 3px;
-      font-weight: 600;
+.maincontent p:first-letter {
+  color: #606161;
+  float: left;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
 }
 
 .adunit{
