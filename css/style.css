@@ -53,14 +53,6 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-/*#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
-}
-*/
 .heading {
   background-color: #033048;
   font-weight: 600;
@@ -86,7 +78,6 @@ body {
   color: #f9e42e;
   text-decoration: none;
   margin: 10px;
-
 }
 
 .readmore h3 {
@@ -96,9 +87,9 @@ body {
 }
 
 .readmore a {
+  color: #033048;
   float: right;
   text-decoration: none;
-  /*font-size: 24px;*/
   font-weight: 600;
 }
 
@@ -136,9 +127,10 @@ body {
 }
 
 .sidebar a {
+  color: #033048;
   text-decoration: none;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 300;
   float: left;
 }
 
@@ -173,7 +165,6 @@ a.signup {
   font-size: 24px;
   font-weight: 800;
   width: 100%;
-
 }
 
 .social a {
