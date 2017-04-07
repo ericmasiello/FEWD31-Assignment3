@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Homework Assigment 3
+Client: Relaxr
+Author: Sequoia Howell
+Developer @GA in DC
 */
 
 
@@ -41,17 +41,106 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+html{
+  webkit-box-sizing: border-box;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
+     color: #606161;
+     background-color: #f0efef;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     max-width: 100%;
 }
 
+a{
+     text-decoration: none;
+}
+
+.sidebar a:hover{
+      color: #f9e42e;
+}
+
+a:hover{
+      color: black;
+}
+
+.sidebar p{
+      color: #033048;
+}
+
+.readmorestate{
+      display: none;
+}
+
+.readmoretarget{
+      opacity: 0;
+      max-height: 0;
+      font-size: 0;
+      transition-timing-function: 25s ease;
+}
+
+.readmorestate:checked ~.readmorewrap .readmoretarget{
+      opacity: 1;
+      font-size: inherit;
+      max-height: 999em;
+}
+
+.readmorestate ~.readmoretrigger:before{
+      content: 'Read more';
+      font-weight: 300;
+      font-size: 24px;
+      margin-bottom: 300px;
+}
+
+.readmorestate:checked ~.readmoretrigger:before{
+      content: 'Read less';
+      font-weight: 300;
+      font-size:24px;
+      margin-bottom: 300px;
+}
+
+.readmoretrigger{
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 .5em;
+      color: #666;
+      font-size: .9em;
+      line-height: 2;
+      border: 1px solid #ddd;
+      border-radius: .25em;
+      float: right;
+}
+
+.sidebar{
+      max-width: 240px;
+      float: right;
+      font-size: 12px;
+      margin-right: 200px;
+      color: #033048;
+}
+
+.maincontent{
+      margin: 10px 320px 10px 150px;
+      max-width: 700px;
+      font-weight: 300;
+      font-size: 24px;
+}
+
+label{
+      margin-bottom: 30px;
+}
+
+article h1{
+      font-size: 40px;
+      font-weight: 600;
+      color: #033048;
+}
 
 /******************************************
 /* LAYOUT
@@ -63,18 +152,125 @@ body {
   margin: auto;
 }
 
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+header {
+      background-color: #033048;
+      position:relative;
+      display: block;
+      max-width:100%;
+      height:100%;
+      margin:0 auto;
+      overflow:auto;
+}
+
+footer{
+      background-color: #121212;
+      margin: 0;
+      text-align: center;
+      color: white;
+}
+
+header h1{
+      margin: 30px 30px 30px 80px;
+      padding-top: 0px;
+      max-width: 50%;
+      display:block;
+      float: left;
+}
+
+header nav{
+      float: right;
+      margin: 30px 100px 30px 30px;
+}
+
+header nav a{
+      color: #f9e42e;
+      margin: 20px;
+      font-weight: 600;
+      font-size: 24px;
+}
+
+aside p a{
+      color: #033048;
+}
+
+article{
+      border-bottom: solid;
+}
+
+.sidebar h4{
+      color: #033048;
+      font-size: 32px;
+      font-weight: 800;
+}
+
+.sidebar nav a{
+      color: #033048;
+      font-size: 24px;
+      font-weight: 300;
+}
+
+.buttonbackground{
+      background-color: #f9e42e;
+      padding: 20px;
+      margin: 100px 0px 0px 0px;
+}
+
+.button{
+      background-color: #033048;
+      color: white;
+      border-radius: 2px;
+      padding: 5px 40px 5px 40px;
+      font-weight: 600;
+}
+
+.move{
+      text-align: center;
+}
+
+.logo{
+      color: white;
+      font-size: 24px;
+}
+
+footer h3{
+      margin: 0px;
+      color: #f9e42e;
+      padding: 50px 0px 50px 0px;
+}
+
+footer ul{
+      list-style: none;
+}
+
+.next li{
+      display: inline;
+      padding-right: 50px;
+}
+
+.maincontent p:first-letter {
+  color: #606161;
+  float: left;
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.adunit{
+      color: #033048;
+      background-color: white;
+      text-align: center;
+      padding-bottom: 300px;
+}
+
+/*Look at me using git!*/
 
 
 
