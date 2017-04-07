@@ -17,6 +17,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -26,6 +27,7 @@ Developer @GA in NYC
      line-height: 0;
      height: 0;
 }
+
 
 .clear {
   clear: both;
@@ -44,7 +46,9 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+html{
+  box-sizing:inherit;
+}
 body {
      color: #000;
      font-size: 12px;
@@ -74,6 +78,13 @@ div{
    font-style: bold;
 
 }
+.leftfloat2{
+   width:700px;
+   color:#606161;
+   font-size: 12px;
+   font-style: bold;
+
+}
 .middlefloat{
   width:20px;
 }
@@ -82,14 +93,20 @@ div{
   color:#f9e42e;
   font-size: 15px
 }
+.rightfloat2{
+  width:240px;
+  color:#606161;
+  font-size: 24px
+}
 section div{
   background-color: #f0efef;
-  padding-left: 20px;
   float:left;
+  box-sizing:inherit;
 }
 header{
   font-size: 40px;
   font-style: semibold; 
+  float:left;
 }
 footer{
 
@@ -104,7 +121,8 @@ footer{
 }
 h3{
   font-size: 32px;
-  font-style: extra bold; 
+  font-style: extra bold;
+
 }
 h4{
   font-weight: semibold;
