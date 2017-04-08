@@ -1,11 +1,3 @@
-  /*
-  Project Name: Blank Template
-  Client: Your Client
-  Author: Your Name
-  Developer @GA in NYC
-  */
-
-  /*Command plus forward slash will comment the line*/
 
   /******************************************
   /* SETUP
@@ -13,29 +5,29 @@
 
   /* Box Model Hack */
   * {
-       -moz-box-sizing: border-box; /* Firexfox */
-       -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-       box-sizing: border-box; /* IE */
-  }
+     -moz-box-sizing: border-box; /* Firexfox */
+      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
 
   /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-
-  .clear {
+.clearfix:after {
+    content: ".";
+    display: block;
     clear: both;
-  }
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
 
-  .alignright {
-    float: right;
-    padding: 0 0 10px 10px; /* note the padding around a right floated image */
-  }
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
 
   .alignleft {
     float: left;
@@ -55,9 +47,8 @@
        background-color: #f0efef;
        color: #033048;
        border:solid #033048 1px;
-       padding:5px;
        margin: auto;
-       width: 960px;
+       width: 1024px;
   }
 
 
@@ -73,12 +64,12 @@ nav{
   display: inline;
 }
 
-  h1{
-    font-size: 40px;
-    color:#f9e42e;
-    padding-left: 50px;
-    display: inline;
-  }
+h1{
+  font-size: 40px;
+  color:#fff;
+   padding-left: 50px;
+  width: 40%;
+}
 
   /*Gutter can be done with just padding*/
 
@@ -96,7 +87,7 @@ nav{
     text-decoration: none;
     display: block;
     padding: 0 15px;
-    color: #fff;
+    color: #f9e42e;
     line-height: 1.5;
   }
 
@@ -134,9 +125,14 @@ nav{
     font-weight: 300;
   }
 
-  .sidebar p+div{
+  .sidebar a{
     font-weight: 600;
     font-size: 22px;
+    list-style-type: none;
+    margin: 0 40 0px;
+    text-decoration: none;
+    color: #033048;
+    display: block;
   }
 
   .readmore{
@@ -159,6 +155,10 @@ nav{
     background-color: #033048;
     color: white;
     padding: 10px 30px;
+  }
+
+  .ad{
+    margin-top: 40px;
   }
 
 
@@ -210,12 +210,6 @@ nav{
   /*******************************************/
 
   /* Center the container */
-    html{
-      box-sizing:border-box;
-      padding: 30px;
-      margin: 20px;
-    }
-
   .main{
     width: 700px;
     padding: 20px;
@@ -235,7 +229,9 @@ nav{
   /* ADDITIONAL STYLES
   /*******************************************/
 
-
+  img{
+    max-width:100%;
+  }
 
 
 
