@@ -1,80 +1,235 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
+/*Basic Setup*/
 
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+html{
+	box-sizing: border-box;
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+*, *::after, *::before {
+    box-sizing: inherit;
 }
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+
+	font-family:'Open Sans', sans-serif;
+	background-color:#f0efef;
+	color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+	}
+
+.clearfix::after {
+
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*Dropcaps*/
+
+p:first-letter {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    float: left;
 }
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+/*Container Sizing*/
 
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
+.container{
+
+	width:960px;
 }
 
-header {
+main {
+	padding: 20px;
+}
+
+/*Top Nav Bar*/
+
+header{
+	background-color: #033048;
+	height:100px;
+	padding: 10px 20px;
+	width: auto;
+	margin-bottom: 40px;
+}
+
+nav{
+	float: right;
+	padding: 0 0 10px 10px;	
+	width: auto;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+header nav{
+	margin-top: 30px;
+}
+
+nav a {
+	color: yellow;
+	padding:20px;
+	text-decoration: none;
+	padding-top: 25px 45px 25px 25px;
+}
+
+h1{
+
+	color: white;
+	padding-top: 25px;
+	padding-left: 25px;
+	display: inline-block;
+	margin: 0;
+	font-size: 24px;
+}
+
+span{
+
+	font-size: 40px;
+	font-weight: 600;
+}
+
+
+.article{
+	width: 700px;
 
 }
 
-footer {
+.categories{
+	width: 240px;
+}
+
+.article, .categories{
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+
+img{
+
+	max-width: 100%;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.post {
+	font-size: 40px;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 25px;
+}
+
+p{
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.more{
+	display: block;
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.learn{
+	font-size: 22px;
+	font-weight: 600;
+}
+/*Sidebar*/
+
+aside{
+	margin-left: 15px;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+.list{
+	list-style: none;
+	padding: 0;
+	text-decoration: none;
+}
+
+.about{
+	float: left;
+	margin-bottom: 30px;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+aside ul li {
+	font-size: 24px;
+	font-weight: 300;
+}
+/*Footer*/
+
+.sign {
+	height:100px;
+	background-color: #f9e42e;
+	margin-bottom: -32px;
+	position: relative;
+}
+
+.button2 {
+	
+	background-color: #033048;
+	font-size: 14px;
+	border-radius: 5px;
+	color: white;
+	display: block;
+	width: 30%;
+	padding: 2px;
+	text-align: center;
+	line-height: 28px;
+	font-style: none;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-decoration: none;
+  	font-weight: 800;
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+ul.list {
+		padding-left: 10px;
+}
 
+footer{ 
+	height:225px;
+	background-color: #121212;
+	color: #f9e42e;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 800;
+	padding: 0;
+	
+}
 
+footer ul li{
+	display: inline-block;
+	text-align: center;
+  		
+}
 
+ul.footer{
+	padding: 0;
+}
+
+.copyright {
+	text-align: center;
+	font-size:9px;
+	font-weight: 600;
+	padding: 0;
+}
+
+h4 {
+	padding-top: 30px;
+
+}
 
