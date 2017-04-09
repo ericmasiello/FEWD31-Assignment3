@@ -17,6 +17,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -26,6 +27,7 @@ Developer @GA in NYC
      line-height: 0;
      height: 0;
 }
+
 
 .clear {
   clear: both;
@@ -44,12 +46,18 @@ Developer @GA in NYC
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+html{
+  box-sizing:inherit;
+}
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     width:auto;
+     background-color: #f0efef;
+
+
 }
 
 
@@ -59,18 +67,140 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
   margin: auto;
-}
-
-header {
-
-}
-
-footer {
+  padding-right: 20px;
+  padding-left: 40px;
 
 }
 
+div{
+
+  background-color: #033048;
+  
+  }
+.leftfloat{
+   width:700px;
+   color:white;
+   font-size: 40px;
+   font-weight: bold;
+
+}
+.leftfloat2{
+   width:700px;
+   color:#606161;
+   font-size: 12px;
+   font-weight: bold;
+
+}
+.middlefloat{
+  width:20px;
+}
+.rightfloat{
+  width:240px;
+  color:#f9e42e;
+  font-size: 15px
+}
+.rightfloat2{
+  width:240px;
+  color:#606161;
+  font-size: 24px
+}
+.main {
+ float: left;
+ width: 700px;
+}
+
+.sidebar {
+ float: left;
+ width: 240px;
+ border-bottom: none;
+ color: #033048;;
+}
+.topbar{
+  margin:auto;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+section div{
+  background-color: #f0efef;
+  box-sizing:inherit;
+
+}
+section div header{
+  width:700px;
+}
+section div p{
+  width:700px;
+  border-bottom: solid;
+}
+
+header{
+  font-size: 40px;
+  font-weight: semibold; 
+  color: #033048;
+}
+
+img{
+  box-sizing:inherit;
+  
+}
+.dropcap{
+  font-size: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  line-height: 60px;
+  color: #606161;
+
+
+}
+h3{
+  font-size: 32px;
+  font-weight: extra bold;
+
+}
+h4{
+  font-weight: semibold;
+  font-size: 22px;
+}
+ul{
+  font-weight: light;
+  font-size: 24px;
+}
+.sidetext{
+  font-size:18px;
+  font-weight:light !important;
+}
+h5{
+  font-size:22px;
+}
+
+footer{
+  text-align: center;
+}
+footer nav{
+  background-color: #f9e42e;
+}
+footer section{
+  background-color: #121212;
+}
+footer section h5{
+  color:#f9e42e;
+}
+footer section p{
+  color:white;
+}
+
+.button {
+    background-color: #f9e42e; 
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
