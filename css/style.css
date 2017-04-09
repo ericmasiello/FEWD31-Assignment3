@@ -1,13 +1,13 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: FEWD-31-assignment3
+Client: Eric and Erica
+Author: James Carbone
+Developer @GA in DC
 */
 
 
 /******************************************
-/* SETUP
+/* Generic
 /*******************************************/
 
 /* Box Model Hack */
@@ -50,6 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     margin: 0;
 }
 
 
@@ -59,16 +60,141 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 1200px;
   margin: auto;
+  background-color: #033048;
 }
 
-header {
+.header {
+  float: left;
+  width: 40%;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 80px;
+}
 
+nav {
+  float: left;
+  width: 60%;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9e42e;
+  padding-left: 30px;
+  font-size: 24px;
+
+}
+
+a:hover {
+  color: #606161;
+}
+
+.main {
+  background-color: #f0efef;
+}
+
+.posts {
+  width: 700px;
+  float: left;
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+  margin-left: 80px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.content {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.content::first-letter {
+  float: left;
+  font-size: 60px;
+  color: #606161;
+  font-weight: 700;
+}
+
+.readmore {
+  font-size: 24px;
+  text-align: right;
+}
+
+article {
+  border-bottom: 1px solid;
+}
+
+.sidebar {
+  width: 240px;
+  float: left;
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+}
+
+.list {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 24px;
+  margin-left: -30px;
+  margin-top: -20px;
+}
+
+.abouttext {
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: -20px;
+  margin-bottom: 40px
+}
+
+span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.gutter {
+  width: 20px;
+  float: left;
+}
+
+.signup {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 40px;
+}
+
+.button {
+  color: white;
+  background-color: #033048;
+  padding: 10px 40px;
+  border-radius: 5px;
 }
 
 footer {
+  background-color: #121212;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
 
+.footername {
+  color: #f9e42e;
+  margin-bottom: 10px;
+  font-size: 44px;
+}
+
+footer nav {
+  padding-left: 425px;
+}
+
+.copyright {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 18px;
 }
 
 /******************************************
