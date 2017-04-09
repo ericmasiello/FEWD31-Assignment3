@@ -1,0 +1,120 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	text-align: center;
+	background-image: url(images/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 400px;
+}
+
+h1 {
+	text-align: left;
+	margin-left: 10%;
+	padding-bottom: 80px;
+	padding-top: 20px;
+	font-size: 48px;
+}
+
+.slogan {
+	margin-bottom: 75px;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.buttonyellow {
+	text-decoration: none;
+	background-color: yellow;
+	padding: 10px 30px 10px 30px;
+	color: #033048;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 24px;
+}
+
+.buttonyellow:hover {
+	background-color: white;
+}
+
+.benefits {
+	padding: 50px;
+	color: #606161;
+	font-size: 30px;
+	width: 50%;
+
+}
+
+.benefitstitle {
+	color: #033048;
+	font-size: 48px;
+}
+
+ul {
+	padding: 20px;
+	padding-left: 160px;
+}
+
+li {
+	padding: 10px;
+}
+
+.testimonial {
+	text-align: center;
+	background-image: url(images/testimonial_bg.jpg);
+	color: white;
+	padding-left: 24%;
+	padding-right: 24%;
+	font-size: 37px;
+	padding-bottom: 75px;
+	padding-top: 75px;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.name {
+	font-weight: normal;
+	font-style: normal;
+}
+
+.signup {
+	text-align: center;
+	background-color: #f9e42e;
+	padding: 40px;
+}
+
+.buttonblue {
+	background-color: #033048;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 40px 10px 40px;
+	font-weight: bold;
+}
+
+.buttonblue:hover {
+	background-color: red;
+}
+
+footer {
+	background-color: #121212;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+.footername {
+	color: #f9e42e;
+	margin-bottom: 40px;
+	font-size: 44px;
+}
+
+a {
+	padding: 10px;
+}
+
+.copyright {
+	margin-top: 75px;
+}
