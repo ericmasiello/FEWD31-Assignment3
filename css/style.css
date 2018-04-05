@@ -30,7 +30,7 @@ body > * {
   max-width: 1000px;
   margin: auto;
   background: white;
-  }
+}
 
 .relaxr {
   color: white;
@@ -38,7 +38,6 @@ body > * {
   font-weight: 800;
   margin-right: auto;
   margin-left: 50px;
-  padding-top: 20px;
 }
 
 .primarycontainer .box {
@@ -83,19 +82,24 @@ p {
   justify-content: flex-end;
   min-height: 40px;
   padding: 30px;
+  align-items: baseline;
 }
 
-.secondarycontainer {
-  border: 1px solid;
+.secondarycontainer .boxleft {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: flex-start;
+}
+
+.secondarycontainer .boxright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .button {
   background-color: #f9e42e;
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES
