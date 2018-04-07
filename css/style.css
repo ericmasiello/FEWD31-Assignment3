@@ -20,6 +20,10 @@ Developer @GA in NYC
  * 07 - Miscellaneous
 **/
 
+/******************************************
+/* GENERIC
+/*******************************************/
+
 html {
   box-sizing: border-box;
 }
@@ -46,7 +50,11 @@ body {
 body > *{
   max-width: 1250px;
   margin: auto;
-  background: white;
+  background-color: #f0efef;
+}
+
+a {
+  text-decoration: none;
 }
 
 /******************************************
@@ -60,11 +68,58 @@ body > *{
   margin: auto;
 }
 
-header {}
+nav ul{
+  display: flex;
+}
 
-footer {}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns{
+  display: flex;
+}
+
+header, nav {
+  background-color: #033048;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
 
 /******************************************
-/* ADDITIONAL STYLES
+/* HEADER AND NAVIGATION
 /*******************************************/
 
+header, nav {
+  width: 50%;
+}
+header h1{
+  color:#f0efef;
+  padding-left: 30px;
+}
+
+nav ul li a{
+  margin: auto;
+  width: 100%;
+  font-weight: 600;
+  color: #f9e42e;
+  font-size: 24px;
+  padding: 15px;
+}
+
+/******************************************
+/* CONTENT
+/*******************************************/
+
+.blog{
+  max-width: 700px;
+  margin: 20px;
+}
+
+.sidebar{
+max-width: 240px;
+}
