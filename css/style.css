@@ -22,29 +22,13 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  line-height: 1.4;
   background-color: black;
 }
 
 body > * {
   max-width: 1000px;
   margin: auto;
-  background: white;
-}
-
-.relaxr {
-  color: white;
-  font-size: 24px;
-  font-weight: 800;
-  margin-right: auto;
-  margin-left: 50px;
-}
-
-.primarycontainer .box {
-  color: #f9e42e;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 20px;
+  background: #f0efef;
 }
 
 h1 {
@@ -66,6 +50,43 @@ h3 {
 p {
   font-size: 24px;
   font-weight: 300;
+  color: #606161;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.box1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.readmore {
+  border-top: 1px solid;
+  border-color: #606161;
+}
+
+.secondarylist {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+p1 {
+  font-size: 22px;
+  font-weight: 300px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
 }
 
 /******************************************
@@ -74,33 +95,58 @@ p {
 
 /* Center the container */
 
-.primarycontainer {
+nav {
+  background: #033048;
   border: 1px solid;
-  background-color: #033048;
+}
+
+nav ul {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  min-height: 40px;
-  padding: 30px;
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
   align-items: baseline;
 }
 
-.secondarycontainer .boxleft {
+.logo {
+  margin-right: 80px;
+}
+
+.box1 {
+  margin-left: 30px;
+}
+
+.secondarycontainer {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding: 40px;
+  justify-content: space-between;
 }
 
-.secondarycontainer .boxright {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.box left {
+  width: 700px;
 }
 
-.button {
-  background-color: #f9e42e;
+.box right {
+  width: 240px;
 }
 
+.buttoncontainer {
+  padding: 20px;
+}
+
+
+.buttoncontainer {
+border: 1px solid;
+border-color: #f9e42e;
+background-color: #f9e42e;
+
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
