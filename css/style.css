@@ -119,6 +119,7 @@ nav ul li a{
 /* CONTENT
 /*******************************************/
 
+/****** Blog ******/
 .blog{
   max-width: 700px;
   margin: 20px;
@@ -146,4 +147,35 @@ article a {
   display: block;
   text-align: right;
   padding-bottom: 10px;
+}
+
+/****** Sidebar ******/
+
+h3{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.sidebar ul li{
+  font-size: 24px;
+  font-weight: 300;
+  list-style: none;
+}
+
+section p{
+  font-size: 22px;
+  font-weight: 300;
+  color: #033048;
+}
+
+section a{
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  margin-top: 0;
+}
+
+.Ad-unit img{
+  padding: 10px;
+  padding-top: 20px;
 }
