@@ -89,11 +89,9 @@ header, nav {
   background-color: #033048;
 }
 
-footer{
-  background-color: black;
-  color: white;
+footer {
+  text-align: center;
 }
-
 /******************************************
 /* HEADER AND NAVIGATION
 /*******************************************/
@@ -149,6 +147,10 @@ article a {
   padding-bottom: 10px;
 }
 
+hr{
+  color:#033048;
+}
+
 /****** Sidebar ******/
 
 h3{
@@ -178,4 +180,54 @@ section a{
 .Ad-unit img{
   padding: 10px;
   padding-top: 20px;
+}
+
+/****** Sign-Up Button ******/
+
+.blue-button {
+  background-color: #033048;
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 12px;
+}
+
+.button-surround {
+  background-color: #f9e42e;
+  padding: 35px;
+  text-align: center;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer{
+  background-color: #121212;
+}
+
+h4{ 
+  color: #f9e42e;
+  margin-top: 0;
+  padding-top: 25px;
+  font-size: 24px;
+}
+
+h5{
+  margin-bottom: 0;
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+footer img {
+  padding: 10px;
+  padding-bottom: 25px;
+  height: 60px;
+  width: auto;
 }
