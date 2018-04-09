@@ -44,10 +44,9 @@ body {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   background: black;
-
 }
 
-body > *{
+body>* {
   max-width: 1100px;
   margin: auto;
   background-color: #f0efef;
@@ -57,12 +56,13 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  color:red;
+a:hover {
+  color: red;
   font-style: italic;
 }
 
-h2, h3{
+h2,
+h3 {
   color: #033048;
 }
 
@@ -77,40 +77,43 @@ h2, h3{
   margin: auto;
 }
 
-nav ul{
+nav ul {
   display: flex;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-between;
 }
 
-.columns{
+.columns {
   display: flex;
 }
 
-header, nav {
+header,
+nav {
   background-color: #033048;
 }
 
 footer {
   text-align: center;
 }
+
 /******************************************
 /* HEADER AND NAVIGATION
 /*******************************************/
 
-header, nav {
+header,
+nav {
   width: 50%;
-
 }
-header h1{
-  color:#f0efef;
+
+header h1 {
+  color: #f0efef;
   padding-left: 30px;
 }
 
-nav ul li a{
+nav ul li a {
   margin: auto;
   width: 100%;
   font-weight: 600;
@@ -124,22 +127,23 @@ nav ul li a{
 /*******************************************/
 
 /****** Blog ******/
-.blog{
+
+.blog {
   max-width: 700px;
   margin: 20px;
 }
 
-.sidebar{
+.sidebar {
   max-width: 240px;
 }
 
-h2{
+h2 {
   font-size: 40px;
   font-weight: 600;
 }
 
 article p::first-letter {
-  font-size: 100px; 
+  font-size: 100px;
   font-style: bold;
   font-weight: 600;
   float: left;
@@ -147,7 +151,7 @@ article p::first-letter {
   padding-bottom: 10px;
 }
 
-article p{
+article p {
   font-size: 24px;
   font-weight: 300;
   color: #606161;
@@ -162,39 +166,37 @@ article a {
   padding-bottom: 10px;
 }
 
-
-
-hr{
-  color:#033048;
+hr {
+  color: #033048;
 }
 
 /****** Sidebar ******/
 
-h3{
+h3 {
   font-size: 32px;
   font-weight: 800;
 }
 
-.sidebar ul li{
+.sidebar ul li {
   font-size: 24px;
   font-weight: 300;
   list-style: none;
 }
 
-section p{
+section p {
   font-size: 22px;
   font-weight: 300;
   color: #033048;
 }
 
-section a{
+section a {
   font-size: 22px;
   font-weight: 600;
   color: #033048;
   margin-top: 0;
 }
 
-.Ad-unit img{
+.Ad-unit img {
   padding: 10px;
   padding-top: 20px;
 }
@@ -223,18 +225,18 @@ section a{
 /* FOOTER
 /*******************************************/
 
-footer{
+footer {
   background-color: #121212;
 }
 
-h4{ 
+h4 {
   color: #f9e42e;
   margin-top: 0;
   padding-top: 25px;
   font-size: 24px;
 }
 
-h5{
+h5 {
   margin-bottom: 0;
   color: white;
   font-size: 9px;
