@@ -1,12 +1,27 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Matt Megill
 Developer @GA in NYC
 */
 
 /******************************************
 /* SETUP
+/*******************************************/
+
+/**
+ * 00 - Normalize OR Reset
+ * 01 - Generic
+ * 02 - Base Styles
+ * 03 - Layout
+ * 04 - Header & Navigation
+ * 05 - Content
+ * 06 - Footer
+ * 07 - Miscellaneous
+**/
+
+/******************************************
+/* GENERIC
 /*******************************************/
 
 html {
@@ -27,7 +42,28 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background: black;
+}
+
+body>* {
+  max-width: 1100px;
+  margin: auto;
+  background-color: #f0efef;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-style: italic;
+}
+
+h2,
+h3 {
+  color: #033048;
 }
 
 /******************************************
@@ -41,10 +77,176 @@ body {
   margin: auto;
 }
 
-header {}
+nav ul {
+  display: flex;
+}
 
-footer {}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns {
+  display: flex;
+}
+
+header,
+nav {
+  background-color: #033048;
+}
+
+footer {
+  text-align: center;
+}
 
 /******************************************
-/* ADDITIONAL STYLES
+/* HEADER AND NAVIGATION
 /*******************************************/
+
+header,
+nav {
+  width: 50%;
+}
+
+header h1 {
+  color: #f0efef;
+  padding-left: 30px;
+}
+
+nav ul li a {
+  margin: auto;
+  width: 100%;
+  font-weight: 600;
+  color: #f9e42e;
+  font-size: 24px;
+  padding: 15px;
+}
+
+/******************************************
+/* CONTENT
+/*******************************************/
+
+/****** Blog ******/
+
+.blog {
+  max-width: 700px;
+  margin: 20px;
+}
+
+.sidebar {
+  max-width: 240px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+article p::first-letter {
+  font-size: 100px;
+  font-style: bold;
+  font-weight: 600;
+  float: left;
+  line-height: 90%;
+  padding-bottom: 10px;
+}
+
+article p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+}
+
+article a {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+hr {
+  color: #033048;
+}
+
+/****** Sidebar ******/
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.sidebar ul li {
+  font-size: 24px;
+  font-weight: 300;
+  list-style: none;
+}
+
+section p {
+  font-size: 22px;
+  font-weight: 300;
+  color: #033048;
+}
+
+section a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  margin-top: 0;
+}
+
+.Ad-unit img {
+  padding: 10px;
+  padding-top: 20px;
+}
+
+/****** Sign-Up Button ******/
+
+.blue-button {
+  background-color: #033048;
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 12px;
+}
+
+.button-surround {
+  background-color: #f9e42e;
+  padding: 35px;
+  text-align: center;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+  background-color: #121212;
+}
+
+h4 {
+  color: #f9e42e;
+  margin-top: 0;
+  padding-top: 25px;
+  font-size: 24px;
+}
+
+h5 {
+  margin-bottom: 0;
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+footer img {
+  padding: 10px;
+  padding-bottom: 25px;
+  height: 60px;
+  width: auto;
+}
