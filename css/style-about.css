@@ -1,0 +1,206 @@
+/*
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Matt Megill
+Developer @GA in NYC
+*/
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  background: black;
+}
+
+body > *{
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+.container {
+  width: 100%;
+  margin: auto;
+  min-height: 400px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+  background-size: cover;
+}
+
+.container2 {
+  width: 100%;
+  margin: auto;
+  min-height: 300px;
+  margin-bottom: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #121212;
+}
+
+header h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-left: 60px;
+  margin-top: 0;
+}
+
+header h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+section h2 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 30px;
+  margin-right: 40%;
+  margin-top: 0;
+}
+
+section p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+  margin-left: 60px;
+  margin-right: 40%;
+}
+
+section ul {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+  margin-left: 120px;
+  margin-right: 40%;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.button-center {
+  text-align: center;
+}
+
+.yellow-button {
+  background-color: #f9e42e;
+  font-weight: 800;
+  font-size: 14px;
+  color: #033048;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px;
+}
+
+.blue-button {
+  background-color: #033048;
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 12px;
+}
+
+.quote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+p.quote {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 50px;
+}
+
+footer h1 {
+  color: #f9e42e;
+  margin-top: 0;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+footer p {
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+.benefits {
+  background-color: #f0efef;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
+  ;
+  background-size: cover;
+  margin-top: 0;
+}
+
+.button-surround {
+  background-color: #f9e42e;
+  padding: 35px;
+}
+
+img {
+  padding: 10px;
+  padding-bottom: 25px;
+  height: 60px;
+  width: auto;
+}
+
+li {
+  padding: 2.5px;
+}
