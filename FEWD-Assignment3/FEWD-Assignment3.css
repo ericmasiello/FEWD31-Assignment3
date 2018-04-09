@@ -1,0 +1,290 @@
+*
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Thalia Wiggins
+Developer @GA in DC
+*/
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+ clear: both;
+}
+
+.alignright {
+ float: right;
+ padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+ float: left;
+ padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLE
+/*******************************************/
+
+body {
+    background-color: #f0efef
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+ #container {
+    width: 960px;
+    margin: auto;
+
+}
+
+header{
+ display: flex;
+ justify-content: space-between; 
+ align-items: center;
+ background-color: #033048; 
+ height: 120px;
+ margin-bottom: 50px;
+ }
+
+main{
+ display: flex;
+ justify-content: center; 
+ width: 700px; 
+ color: #033048; 
+ padding-bottom: 40px; 
+
+ }
+
+footer{
+ display:block;
+ justify-content: center;
+ width:100%;
+ align-items: center;
+ background: #f9e42e;
+ }
+
+
+/******************************************
+/* HEADER STYLES
+/*******************************************/
+
+
+.logo{
+ font-size: 36pt;
+ font-weight: 800; 
+ color: #f0efef; 
+ flex-grow: 1;
+ margin-left: 50px
+}
+
+nav {
+ display:flex;
+ flex-grow: 1;
+ font-weight: 600; 
+ font-size: 24px;
+ justify-content: space-around;
+ margin-right: 50px;
+}
+
+header nav a{
+color: #f9e42e; 
+text-decoration: none; 
+
+}
+
+header nav a:hover, a:active { 
+  color: red;
+  text-shadow: 2px 2px 4px #121212;
+}
+
+
+/******************************************
+/* MAIN STYLES
+/*******************************************/
+
+
+section#mainContainer{
+ width: 700px; 
+
+}
+
+article {
+ padding-bottom: 20px; 
+}
+
+article h2{ 
+ font-weight: 600; 
+ font-size: 40px;
+ margin-bottom: 20px;
+}
+
+article p{
+ font-size: 24px;
+ font-style: 300; 
+ color: #606161; 
+ margin-bottom: 90px;
+}
+
+article p:first-letter { 
+ float: left;
+ font-size: 85px;
+ line-height: 1;
+ font-weight: 600;
+ margin-right: 9px;
+ color: #033048;
+}
+
+.readMore{
+ margin-top: 50px;
+ float: right;
+ font-size: 24px;
+ font-weight: 600; 
+ height: 50px;
+ text-decoration: none; 
+ color: #033048;
+}
+
+a.readMore:hover, a:active { 
+color: red;
+}
+
+section#gutter{ 
+ width: 20px; 
+}
+
+section#sidebar{
+ display:flex;
+ flex-direction: column; 
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+
+#sidebarMenu{
+width: 240px; 
+}
+
+#sidebarMenu h3{ 
+  font-size: 25pt; 
+  font-weight: 800; 
+  margin-bottom: 15px; 
+}
+
+#sidebarMenu a{ 
+  font-size: 20pt;
+  font-weight: 300;  
+  text-decoration: none; 
+  color: #606161;
+  margin-bottom: 20px; 
+}
+
+#sidebarMenu a:hover, a:active { 
+ color: red;
+}
+
+#sidebarMenu p{ 
+  font-size: 17pt; 
+  font-weight: 300; 
+}
+
+ul{
+  font-size: 24px;
+  margin-bottom: 30px; 
+}
+
+h4{ 
+  font-size: 22px;
+  font-weight: 600;  
+  text-decoration: none; 
+  color: #033048; 
+}
+h4:hover, h4:active { 
+  color: red;}
+
+
+#addUnit{
+  margin-top: 50px;
+  align-items: center;
+}
+
+
+footer .logo{
+ color: #f9e42e; 
+}
+
+
+/******************************************
+/* FOOTER STYLES
+/*******************************************/
+ .spacer_footer{
+   height: 30px;
+   width: 100%;
+ }
+
+ .top_footer{
+
+   width: 300px;
+   height: 60px;
+   padding-top: 35px;
+   padding: 10px;
+   border-radius: 5px;
+   font-weight: 600;
+   font-size: 28px;
+   color: #f0efef; 
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   background-color: #033048; 
+ }
+
+ .mid_footer{
+   height: 250px;
+   width: 100%;
+   text-align: center;
+   padding-top: 40px;
+   font-weight: 800; 
+   font-size: 22px;
+   color: #f9e42e; 
+   background-color: #121212; 
+ }
+
+
+ .base_footer{
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   font-weight: 600; 
+   font-size: 18px;
+   color: white;
+   background-color: #121212; 
+ }
+
+ footer img{
+   padding: 15px;
+ }
+
