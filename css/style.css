@@ -57,6 +57,11 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color:red;
+  font-style: italic;
+}
+
 h2, h3{
   color: #033048;
 }
@@ -98,6 +103,7 @@ footer {
 
 header, nav {
   width: 50%;
+
 }
 header h1{
   color:#f0efef;
@@ -132,6 +138,15 @@ h2{
   font-weight: 600;
 }
 
+article p::first-letter {
+  font-size: 100px; 
+  font-style: bold;
+  font-weight: 600;
+  float: left;
+  line-height: 90%;
+  padding-bottom: 10px;
+}
+
 article p{
   font-size: 24px;
   font-weight: 300;
@@ -146,6 +161,8 @@ article a {
   text-align: right;
   padding-bottom: 10px;
 }
+
+
 
 hr{
   color:#033048;
