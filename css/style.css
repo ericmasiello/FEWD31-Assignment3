@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Blog
+Client: Relaxr 
+Author: Carmen Martinez
+Developer @GA in DC
 */
 
 /******************************************
@@ -27,7 +27,7 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /******************************************
@@ -41,9 +41,135 @@ body {
   margin: auto;
 }
 
-header {}
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  background: #033048;
+  margin: auto;
+  padding: 10px 0px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
 
-footer {}
+.header h1 {
+  color: white;
+  font-size: 40px;
+  flex: 1;
+}
+
+.header li {
+  color: #f9e42e;
+  list-style-type: none;
+  display: inline;
+  text-align: right, baseline;
+  flex: 2;
+  padding-right: 30px;
+}
+
+.content {
+  padding: 10px 30px 10px 30px;
+  background: #f0efef;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 20px;
+  text-align: justify;
+}
+
+.main {
+  width: 700px;
+  flex: 2;
+}
+
+.main p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.main img{
+  width: 100%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.more p {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  border-bottom-style: solid;
+  border-color: #606161;
+  border-width: 1px;
+}
+
+.sidebar {
+  padding: 10px 0px 10px 30px;
+  width: 240px;
+  flex: 1;
+}
+
+.sidebar h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar li {
+  list-style-type: none;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.sidebar p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.noname {
+  background: #f9e42e;
+  margin: auto;
+  padding: 10px;
+}
+
+.noname button {
+  background: #033048;
+  font: 12px;
+  font-weight: 800;
+  color: white;
+  width: auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+}
+
+.footer {
+  background-color: #121212;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+.footer img {
+  padding: 0px 10px 0px 10px;
+}
+
+.footer p {
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
