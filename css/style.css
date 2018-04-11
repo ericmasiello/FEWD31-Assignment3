@@ -25,10 +25,31 @@ html {
 
 body {
   color: #000;
+  Background-color: #f0efef;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
+h1 {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+/* erics fonts homework 2*/
+/* color: #000;
+font-size: 12px;
+line-height: 1.4;
+font-family: 'Open Sans', sans-serif;
+background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+background-size: cover; */
 
 /******************************************
 /* LAYOUT
@@ -41,10 +62,124 @@ body {
   margin: auto;
 }
 
-header {}
+header {
+  background-color: #033048;
+  color: white;
+}
 
-footer {}
+footer {
+  background-color: #121212;
+  padding: 20px;
+  border-left:2px solid  #f0efef;
+  border-right: 2px solid  #f0efef;
+  border-bottom: 2px solid  #f0efef;}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* Header */
+.box {
+  color:#f9e42e;
+  background-color: #033048;
+  border: 1px solid #033048;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Navigation {
+  background-color: #033048;
+  display: flex;
+  border: solid 3px green; 
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.primary-nav {
+  display: flex;
+  justify-content: space-between;
+  border: solid 3px red; 
+}
+
+.nav-button {
+  background-color: pink;
+  border: 1px solid tomato;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Body */
+
+.flex {
+  display: flex;
+}
+
+.body {
+  min-height: 100px;
+  min-width: 100px;
+  padding: 10px;
+  border: solid 3px pink; 
+}
+
+.flex .body:first-child {
+  width: 70%;
+ }
+
+ .flex .body:last-child {
+  width: 30%;
+ }
+
+/* Button */
+.joker {
+  border-left:2px solid  #f0efef;
+  border-right: 2px solid  #f0efef;
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 15px;
+}
+
+.jokerpress {
+  background-color: #033048;
+  border: #033048;
+  color: #f0efef;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800px;
+  border-radius: 5px;
+  padding: 8px 30px;
+}
+
+
+/* footer */
+.penguin {
+  color:  #f0efef;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.penguin h2 {
+  color: #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800px;
+}
+
+.penguin p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 600px;
+}
+
+.penguin img {
+  width: 18px;
+  height: 18px;
+  margin: 10px 10px 35px;
+}
+
+
+
