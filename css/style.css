@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr
+Client: Relaxr
+Author: Michael Jones
 Developer @GA in NYC
 */
 
@@ -24,10 +24,12 @@ html {
 /*******************************************/
 
 body {
-  color: #000;
+  color: #033048;
   font-size: 12px;
   line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+  padding:30px;
 }
 
 /******************************************
@@ -39,12 +41,85 @@ body {
 .container {
   width: 100%;
   margin: auto;
+  display: flex;
 }
 
-header {}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9e42e;
+  background-color: #033048;
+  font-weight: 600px;
+  font-size: 24px;
+}
 
-footer {}
+footer {
+  background: #606161;
+  text-align: center;
+  color: #f9e42e;
+  font-size: 20px;
+  font-weight: 600px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+ul {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  color: #f9e42e;
+}
+
+.sidebar-one li{
+  display:block;
+  color:#033048;
+}
+
+
+.push {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 20px;
+}
+
+.click {
+  text-align: center;
+  background-color: #033048;
+  color: white;
+  font-weight: 700px;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+p {
+  border-bottom: 1px solid grey;
+}
+
+footer {
+  overflow: auto;
+}
+
+small {
+  color: white;
+}
+
+a:link {
+  color: #033048;
+}
+p span{
+  font-size:100px;
+  font-weight:bold;
+  
+}
